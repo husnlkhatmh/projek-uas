@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Kanit', sans-serif;
+}
+
+.jodohbody {
+    background-image: url("./gambar1.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.jodohtanggal {
+    background-image: url("./gambar4.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.jodohgacortanggal {
+    background-image: url("./c086b516271e9d25b7d132f2577b9462.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.jodohwellcome{
+    background-color: rgb(47, 47, 47);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.bodygacor {
+    background-image: url("./gambar2.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.namagacor {
+    position: fixed;
+    top: 10px; 
+    left: 60px; 
+    color: orange;
+  }
+  
+  
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: rgb(47, 47, 47);
+    text-align: center;
+    white-space: nowrap;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-right: 10px;
+    .lope{
+        width: 2rem;
+        height: 2rem;
+    }
+
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+   
+
+        & a{
+            background-color: orange;
+            padding: 0.5rem;
+            text-decoration: none;
+            color: black;
+            border-radius: 0.5rem;
+            transition: background-color 0.8s;
+        }
+}
+
+.linke {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    & a {
+      background-color: orange;
+      padding: 0.5rem;
+      text-decoration: none;
+      color: black;
+      border-radius: 0.5rem;
+      transition: background-color 0.8s;
+    }
+  }
+
+
+.link1 {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    & a {
+      background-color: orange;
+      padding: 0.5rem;
+      text-decoration: none;
+      color: black;
+      border-radius: 0.5rem;
+      transition: background-color 0.8s;
+    }
+  }
+  
+
+.kembaliabout{
+    display: flex;
+    margin-left: 840px;
+        align-items: center;
+        gap: 1rem;
+
+        & a{
+            background-color: orange;
+            padding: 0.5rem;
+            text-decoration: none;
+            color: black;
+            border-radius: 0.5rem;
+            transition: background-color 0.8s;
+        }
+}
+.linkhoover:hover{
+    background-color: black;
+    color: orange;
+}
+
+
+.nama1{
+    margin-left: 420px;
+    margin-top: 400px;
+}
+
+.nama2{
+    margin-left: 830px;
+    margin-top: -200px;
+}
+
+.finish{
+    margin-left: 650px;
+    margin-top: 100px;
+}
+
+.letak1{
+    margin-left: 420px;
+    margin-top: 400px;
+}
+
+.letak2{
+    margin-left: 830px;
+    margin-top: -200px;
+}
+
+.letak3{
+    margin-left: 620px;
+    margin-top: 100px;
+}
+
+.wc{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    & a{
+        background-color: black;
+        padding: 0.5rem;
+        text-decoration: none;
+        color: orange;
+        border-radius: 0.5rem;
+        transition: background-color 0.8s;
+    }
+}
+
+.listwc {
+    margin-top: 2px;
+}
+
+
+.about{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    & a{
+        background-color: orange;
+        padding: 0.5rem;
+        text-decoration: none;
+        color: black;
+        border-radius: 0.5rem;
+        transition: background-color 0.8s;
+    }
+}
+
+.abouthoover:hover{
+    background-color: orange;
+    color: black;
+}
+.aboutbody{
+    background-color: white;
+}
+
+.nama{
+    color: orange;
+}
+
+.namawc{
+    color: orange;
+    font-size: 3em;
+}
+
+input{
+    background-color: rgb(47, 47, 47);
+    color: white; 
+    width: 140px;
+    height: 60px;
+    text-align: center;
+}
+
+.ramalan{
+    margin-left: 500px;
+    margin-right: 550px;
+    background-color: orange;
+    color: black;
+    border-radius: 0.5rem;
+}
+
+.ramalperjodohan1{
+    background-color: rgb(47, 47, 47);
+    color: white; 
+    width: 130px;
+    height: 55px;
+    text-align: center;
+}
+.ramalperjodohan2{
+    background-color: rgb(47, 47, 47);
+    color: white; 
+    width: 130px;
+    height: 55px;
+    text-align: center;
+}
+.ramalperjodohan1:hover{
+    background-color: orange;
+    color: black;
+    transition-duration: 0.8s;
+}
+
+.ramalperjodohan2:hover{
+    background-color: orange;
+    color: black;
+    transition-duration: 0.8s;
+}
+
+.aboutbody{
+    background-color: white;
+}
+
+.isiabout{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.judulabout{
+    color: black;
+    text-align: center;
+    background-color: orange;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: black;
+    border-radius: 0.5rem;
+}
+
+.founder{
+    text-align: center;
+    background-color: orange;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: black;
+    border-radius: 0.5rem;
+    display: inline-block;
+}
+.founder-center{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.parafounder{
+    display: flex;
+}
+.para{
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
